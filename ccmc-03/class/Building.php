@@ -13,13 +13,13 @@ class building {
     function getName($name) {
         $this->$name = $name;
     }
-    function getName() {
+    function setName() {
         return $this->name;
     }
     function getHeight($height) {
         $this->height = $height;
     }
-    function getHeight() {
+    function setHeight() {
         return $this->height;
     }
     function getProfile() {

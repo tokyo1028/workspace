@@ -1,6 +1,6 @@
 <?php
 require_once("class/building.php");
-$kasmigaseki = new building("雷が関ビル", 147)；
+$kasmigaseki = new building("雷が関ビル", 147);
 echo "<pre>";
 var_dump($kasmigaseki);
 echo "</pre>";
